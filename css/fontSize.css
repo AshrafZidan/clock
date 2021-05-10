@@ -1,0 +1,15 @@
+#time {
+  font-size: 30px;
+}
+@media screen and (min-width: 320px) {
+  #time {
+    font-size: calc(30px + 98 * ((100vw - 320px) / 680));
+  }
+}
+@media screen and (min-width: 1000px) {
+  #time {
+    font-size: 128px;
+  }
+}
+
+/*# sourceMappingURL=fontSize.css.map */
